@@ -1,3 +1,4 @@
+import 'package:SMXpense/pages/menu.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
@@ -7,6 +8,7 @@ import '../models/transaction.dart';
 import './monthly.dart';
 import 'package:intl/intl.dart';
 import './catrgories.dart';
+import './menu.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -68,13 +70,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
         ),
-        endDrawer: Drawer(
-          child: Scaffold(
-            appBar: AppBar(
-              backgroundColor: Color(0xFF5e17eb),
-            ),
-          ),
-        ),
+        endDrawer: Drawer(child: MainMenu()),
         appBar: AppBar(
           title: Center(
               child: Text(
