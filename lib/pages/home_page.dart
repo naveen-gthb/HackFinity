@@ -9,6 +9,7 @@ import './monthly.dart';
 import 'package:intl/intl.dart';
 import './catrgories.dart';
 import './menu.dart';
+import './weekly.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -175,7 +176,10 @@ class _HomePageState extends State<HomePage> {
                         padding: EdgeInsets.only(right: 7.5),
                         child: RaisedButton(
                           onPressed: () {
-                            print("This Week");
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => Weekly()),
+                            );
                           },
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0),
