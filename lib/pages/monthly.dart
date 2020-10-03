@@ -62,7 +62,7 @@ class _MonthlyState extends State<Monthly> {
                         left: 15,
                       ),
                       child: Text(
-                        "Today",
+                        "This Month",
                         style: TextStyle(
                             fontSize: 25,
                             fontWeight: FontWeight.bold,
@@ -78,7 +78,7 @@ class _MonthlyState extends State<Monthly> {
                             padding:
                                 EdgeInsets.only(left: 15, top: 5, right: 15),
                             child: Text(
-                              "₹100",
+                              "₹8473",
                               style: TextStyle(
                                   fontSize: 50,
                                   fontWeight: FontWeight.bold,

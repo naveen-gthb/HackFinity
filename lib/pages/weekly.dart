@@ -79,7 +79,7 @@ class _WeeklyState extends State<Weekly> {
                             padding:
                                 EdgeInsets.only(left: 15, top: 5, right: 15),
                             child: Text(
-                              "₹100",
+                              "₹576",
                               style: TextStyle(
                                   fontSize: 50,
                                   fontWeight: FontWeight.bold,
